@@ -60,13 +60,13 @@ Notebook: Part_3_Model_Evaluation.ipynb
 
 ##### Evaluated models using business-relevant metrics:
 ```
-- Precision
+Precision
 
-- Recall
+Recall
 
-- F1-score
+F1-score
 
-- ROC-AUC
+ROC-AUC
 ```
 - Analyzed confusion matrices to assess the cost of false negatives (missed backorders).
 
