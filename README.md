@@ -36,7 +36,7 @@ Multiple pipeline configurations were explored during experimentation. From thes
 
 ### Stage 2: Pipeline Strategy & Outlier Handling
 **Notebook:** Part_2_Model_Development.ipynb
-Inventory datasets often contain anomalous and noisy records due to data entry errors, rare demand spikes, or supply chain disruptions. To mitigate their impact, outlier detection was treated as an explicit preprocessing stage in the pipeline design.
+- Inventory datasets often contain anomalous and noisy records due to data entry errors, rare demand spikes, or supply chain disruptions. To mitigate their impact, outlier detection was treated as an explicit preprocessing stage in the pipeline design.
 
 #### Strategy:
 
@@ -110,7 +110,7 @@ This strategy ensured unbiased and leakage-free evaluation.
 ### Stage 3: Model Evaluation & Validation  
 **Notebook:** `Part_3_Model_Evaluation.ipynb`
 
-After training and tuning the pipelines on the inlier training data, all models were evaluated using a structured and unbiased validation strategy.
+- After training and tuning the pipelines on the inlier training data, all models were evaluated using a structured and unbiased validation strategy.
 
 #### Evaluation Metrics
 Models were assessed using **business-relevant performance metrics**, including:
